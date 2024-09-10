@@ -2,7 +2,6 @@
 
 namespace r\Ordering;
 
-use r\Ordering\Ordering;
 use r\ProtocolBuffer\TermTermType;
 
 class Desc extends Ordering

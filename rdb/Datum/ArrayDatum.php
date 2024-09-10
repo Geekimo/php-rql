@@ -3,9 +3,7 @@
 namespace r\Datum;
 
 use r\DatumConverter;
-use r\Datum\Datum;
 use r\ValuedQuery\MakeArray;
-use r\Datum\ArrayDatum;
 use r\Exceptions\RqlDriverError;
 
 class ArrayDatum extends Datum

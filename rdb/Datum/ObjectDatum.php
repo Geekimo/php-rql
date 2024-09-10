@@ -2,7 +2,6 @@
 
 namespace r\Datum;
 
-use r\Datum\Datum;
 use r\DatumConverter;
 use r\Exceptions\RqlDriverError;
 
@@ -15,7 +14,7 @@ class ObjectDatum extends Datum
             $val = $val->encodeServerRequest();
             unset($val);
         }
-        return (Object)$jsonValue;
+        return (object) $jsonValue;
     }
 
     public static function decodeServerResponse($json)

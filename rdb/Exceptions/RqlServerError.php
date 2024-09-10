@@ -2,8 +2,6 @@
 
 namespace r\Exceptions;
 
-use r\Exceptions\RqlException;
-
 class RqlServerError extends RqlException
 {
 
