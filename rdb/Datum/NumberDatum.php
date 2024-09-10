@@ -2,7 +2,6 @@
 
 namespace r\Datum;
 
-use r\Datum\Datum;
 use r\Exceptions\RqlDriverError;
 
 class NumberDatum extends Datum

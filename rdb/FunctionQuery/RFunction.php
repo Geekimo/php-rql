@@ -3,7 +3,6 @@
 namespace r\FunctionQuery;
 
 use r\Query;
-use r\FunctionQuery\FunctionQuery;
 use r\Datum\NumberDatum;
 use r\Datum\ArrayDatum;
 use r\ProtocolBuffer\TermTermType;
